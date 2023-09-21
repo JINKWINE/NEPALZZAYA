@@ -156,6 +156,27 @@
             cursor: pointer;
             background-clip: padding-box;
         }
+        .w-btn-outline {
+            position: relative;
+            padding: 15px 30px;
+            border-radius: 15px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+            font-family: 'NeoDunggeunmo';
+            text-decoration: none;
+            font-weight: 600;
+            transition: 0.25s;
+            border:#F5D061;
+        }
+
+        .w-btn-yellow-outline {
+            background-color: #F5D061;
+            border-color: #ffffff;
+        }
+
+        .w-btn-yellow-outline:hover {
+            background-color: #D3D3D3;
+            color: #000000;
+        }
         @font-face {
             font-family: 'NeoDunggeunmo';
             src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.3/NeoDunggeunmo.woff') format('woff');
@@ -227,7 +248,7 @@
 </div>
 <div style="text-align: center; margin-top: 20px;">
 
-        <button id="retry-button" class="button" onclick="location.href='/ehr/resources/Ne02_QuestionMemeber.html'">다시하기</button>
+        <button id="retry-button" class="button w-btn-outline w-btn-yellow-outline" onclick="location.href='/ehr/resources/Ne02_QuestionMemeber.html'">다시하기</button>
 
 </div>
 <script>

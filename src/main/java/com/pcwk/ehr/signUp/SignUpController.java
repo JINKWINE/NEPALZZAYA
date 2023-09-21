@@ -41,6 +41,7 @@ public class SignUpController {
 		LOG.debug("----------------");
 		LOG.debug("현재 값은 :" + model);
 
+		
 		return "user/Ne08_SignUp";
 
 	}

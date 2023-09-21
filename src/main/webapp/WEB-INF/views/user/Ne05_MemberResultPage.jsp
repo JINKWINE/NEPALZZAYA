@@ -157,6 +157,27 @@
             cursor: pointer;
             background-clip: padding-box;
         }
+         .w-btn-outline {
+            position: relative;
+            padding: 15px 30px;
+            border-radius: 15px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+            font-family: 'NeoDunggeunmo';
+            text-decoration: none;
+            font-weight: 600;
+            transition: 0.25s;
+            border:#F5D061;
+        }
+
+        .w-btn-yellow-outline {
+            background-color: #F5D061;
+            border-color: #ffffff;
+        }
+
+        .w-btn-yellow-outline:hover {
+            background-color: #D3D3D3;
+            color: #000000;
+        }
         @font-face {
             font-family: 'NeoDunggeunmo';
             src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.3/NeoDunggeunmo.woff') format('woff');
@@ -210,10 +231,10 @@
 
 <div style="text-align: center; margin-top: 20px;">
     <a href = "/ehr/ELCARO/myPage.do">
-        <button id="retry-button" class="button">다시하기</button>
+        <button id="retry-button" class="button w-btn-outline w-btn-yellow-outline">다시하기</button>
     </a>
     <a href = "/ehr/ELCARO/shareDesiredURL.do">
-        <button id="share-button" class="button">공유하기</button>
+        <button id="share-button" class="button w-btn-outline w-btn-yellow-outline">공유하기</button>
     </a>
 </div>
 

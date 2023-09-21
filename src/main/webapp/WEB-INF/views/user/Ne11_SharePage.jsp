@@ -205,7 +205,7 @@
 
     <div style="text-align: center; margin-top: 20px;">
     <a href = "/ehr/ELCARO/myPage.do">
-        <button id="retry-button" class="button">다시하기</button>
+        <button id="retry-button" class="w-btn-outline w-btn-yellow-outline">다시하기</button>
     </a>
     </div>
 
